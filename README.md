@@ -2,14 +2,14 @@
 
 ## Primary Objective
 
-The primary objective of creating this repository is for experimenting by making self-contained development environments for insoucing by properly managing freelancers. 
+The primary objective of creating this repository is for experimenting by making self-contained development environments for in-soucing by properly managing freelancers and also by providing secure, intellectul property protecting development environment. 
 
 This will be a framework for a web site that will provide Docker Containers for software development.
 
 
 ## Secondary Objective
 
-The secondary objective is to see how to do scale up software development by means of AI/LLM Prompt engineering and Context engineering by using custom chatmodes.
+The secondary objective of this repostry is to see how to do scale up software development by means of AI/LLM Prompt engineering and Context engineering by using custom chatmodes.
 
 ### What Is a Custom Chat Mode?
 It’s essentially a user-defined configuration file (chatmode.md) that tells Copilot how to think, act, and respond. For example, you can create modes tailored for:
@@ -42,6 +42,20 @@ This tells Github Copilot to use:
 - Use Header Only libraries 
 - CMake Built System
 - RAII for smart pointers
+
+
+## $$$$ 
+
+While this AI multiple persona based approach can be useful for you to serve as an AI team there are cost implications for using custom chatmodes especially in
+Agent mode and not in Ask mode.
+
+In other words, custom chatmodes could be costly if one were using VS Code and Github Copilot using personal license. See cost below:
+
+![Cost for custom chatmodes](cost_custom_chatmodes.png)
+
+Above cost breakdown info is from the reference below
+
+[Modes of Chatting with GitHub Copilot by John Miller](https://www.codemag.com/Blog/AIPractitioner/GHCPCM)
 
 ## MCP Integration
 If you're using MCP instruction files, you can reference specific chat modes within those workflows—making it seamless to switch personas mid-task.
