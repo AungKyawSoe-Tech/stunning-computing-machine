@@ -31,7 +31,7 @@ The benefit of that approach is that continual flow of prompting by just switchi
 
 When you load a mode with a Focus section, Copilot interprets it as a high-level directive. For example:
 
-## Focus
+### Focus
 - Focus: C++ development with Modern C++ 11/14/17/20/23, STL, Boost, CMake, and performance optimization. Use Non-Boost ASIO for networking and filesystem. Use header-only libraries, Use RAII and smart pointers for memory management. Follow C++ best practices and idioms. Use Cppcheck, Clang-Tidy, and AddressSanitizer for static analysis and runtime checks. Write unit tests with Google Test or Catch2. Adhere to the C++ Core Guidelines.
 
 This tells Github Copilot to use:
@@ -57,12 +57,48 @@ Above cost breakdown info is from the reference below
 
 [Modes of Chatting with GitHub Copilot by John Miller](https://www.codemag.com/Blog/AIPractitioner/GHCPCM)
 
-## MCP Integration
+
+### MCP Integration
+
+MCP (Model Context Protocol) are USB-C or generalisd interface for interfacing AI models. Some MCP servers are using for some simple use cases such as CI/CD and beyond. See what Google AI answer for why MCP servers are useful in Copilot.
+
+![Why MCP Servers are needed fo Copilot](why_mcp_and_copilot.png)
+
+### MCP Instruction Files
 If you're using MCP instruction files, you can reference specific chat modes within those workflows—making it seamless to switch personas mid-task.
 
 [MCP Integrations with custom chatmodes in VS Code](https://www.codemag.com/Blog/AIPractitioner/GHCPCM)
 
-## Links
+
+#### MCP Servers
+
+What are Must-Have MCP Servers for Coding and Beyond
+
+Sequential Thinking MCP – Breaks down complex problems into manageable steps, enabling structured problem-solving. Ideal for system design planning, architectural decisions, and refactoring strategies.
+
+Puppeteer MCP – Navigate websites, take screenshots, and interact with web pages. Makes a big difference in UI testing and automation.
+
+Memory Bank MCP – A must-have for complex projects. Organizes project knowledge hierarchically, helping AI better understand your project’s structure and goals. This MCP automates the creation of a memory bank for your project.
+
+Playwright MCP – Critical for cross-browser testing and advanced web automation. A modern, feature-rich alternative to Puppeteer.
+
+GitHub MCP – Saves time by eliminating context switching between your environment and GitHub. Allows you to manage repositories, modify content, work with issues and pull requests, and more—all within your workflow.
+
+Knowledge Graph Memory MCP – Crucial for maintaining project context across sessions. Prevents repetition and ensures the AI retains key project details.
+
+DuckDuckGo MCP – Lightweight web search tool for accessing current documentation, error solutions, and up-to-date information without leaving your environment. Doesn’t require an API key—unlike many alternatives.
+
+MCP Compass – Your guide through the growing MCP ecosystem. Helps you discover the right tools for specific tasks using simple natural language queries.
+
+Check out detailed setup instructions, practical examples, and use cases for all these MCPs: https://enlightby.ai/projects/36
+
+### Comprehensive Guides to MCP servers
+
+[Comprehensive Guides to MCP servers](https://medium.com/@tam.tamanna18/a-comprehensive-guide-to-the-best-mcp-servers-for-2025-5ee541b2b00f)
+
+
+
+## Resources/Links
 
 To understand more about custom chatmodes can be read here
 [Custom chatmodes in VS Code](https://code.visualstudio.com/docs/copilot/customization/custom-chat-modes)
