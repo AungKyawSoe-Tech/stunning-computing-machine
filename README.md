@@ -20,6 +20,10 @@ This project is developed by using AI development team inspired by this article 
 
 [Reference: AI Development team article from dev.to](https://dev.to/this-is-learning/github-copilot-a-persona-based-approach-to-real-world-development-56ee?fbclid=IwY2xjawM8dztleHRuA2FlbQIxMQBicmlkETFJbnB5MllVUlBHRE44T2ttAR6Vo3pcghM2ZIT_lueDkcHrMkhWzQPT9YY1kK7I9FCDCRjqE5BPPvalCbbjUw_aem_DrbIbU_mdkUeC6Ac4H35zw)
 
+The benefit of that approach is that continual flow of prompting by just switching chatmodes as follows:
+
+![AI persona switching](switching_chatmodes.png)
+
 ## Links
 
 To understand more about custom chatmodes can be read here
@@ -28,3 +32,4 @@ To understand more about custom chatmodes can be read here
 Contents of Chatmodes in this repo are adapted from
 
 [Copilot repo for chatmodes](https://github.com/dfinke/awesome-copilot-chatmodes)
+
