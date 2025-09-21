@@ -9,7 +9,10 @@ This will be a framework for a web site that will provide Docker Containers for 
 
 ## Secondary Objective
 
-The secondary objective is to see how to do scale up software development by means of AI/LLM Prompt engineering and Context engineering.
+The secondary objective is to see how to do scale up software development by means of AI/LLM Prompt engineering and Context engineering by using custom chatmodes.
+
+### What Is a Custom Chat Mode?
+It’s essentially a user-defined configuration file (chatmode.md) that tells Copilot how to think, act, and respond. For example, you can create modes tailored for:
 
 
 ## Development Approach
@@ -23,6 +26,27 @@ This project is developed by using AI development team inspired by this article 
 The benefit of that approach is that continual flow of prompting by just switching chatmodes as follows:
 
 ![AI persona switching](switching_chatmodes.png)
+
+## How custom chatmodes are used
+
+When you load a mode with a Focus section, Copilot interprets it as a high-level directive. For example:
+
+## Focus
+- Focus: C++ development with Modern C++ 11/14/17/20/23, STL, Boost, CMake, and performance optimization. Use Non-Boost ASIO for networking and filesystem. Use header-only libraries, Use RAII and smart pointers for memory management. Follow C++ best practices and idioms. Use Cppcheck, Clang-Tidy, and AddressSanitizer for static analysis and runtime checks. Write unit tests with Google Test or Catch2. Adhere to the C++ Core Guidelines.
+
+This tells Github Copilot to use:
+
+- Modern C++ standards
+- Boost
+- Non-Boost ASIO for Networking and FileSystems
+- Use Header Only libraries 
+- CMake Built System
+- RAII for smart pointers
+
+## MCP Integration
+If you're using MCP instruction files, you can reference specific chat modes within those workflows—making it seamless to switch personas mid-task.
+
+[MCP Integrations with custom chatmodes in VS Code](https://www.codemag.com/Blog/AIPractitioner/GHCPCM)
 
 ## Links
 
