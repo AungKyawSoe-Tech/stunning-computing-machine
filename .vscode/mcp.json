@@ -1,9 +1,25 @@
 {
-  "mcpServers": {
-    "puppeteer": {
-      "command": "npx",
-      "args": ["-y", "puppeteer-mcp-server"],
-      "env": {}
+  "mcp": {
+    "servers": {
+      "sequential-thinking": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-sequential-thinking"
+        ]
+      },
+      "puppeteer": {
+        "command": "npx",
+        "args": ["-y", "puppeteer-mcp-server"],
+        "env": {}
+      },
+      "memory": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-memory"
+        ]
+      }
     }
   }
 }
