@@ -1,5 +1,7 @@
 # Stunning-computing-machine
 
+This repo is to serve as a learning template for achieving a few learning objectives.
+
 ## Primary Objective
 
 The primary objective of creating this repository is for experimenting by making self-contained development environments for in-soucing by properly managing freelancers and also by providing secure, intellectul property protecting development environment. 
@@ -29,7 +31,7 @@ The benefit of that approach is that continual flow of prompting by just switchi
 
 ![AI persona switching](switching_chatmodes.png)
 
-## How custom chatmodes are used
+### How custom chatmodes are used
 
 When you load a mode with a Focus section, Copilot interprets it as a high-level directive. For example:
 
@@ -46,7 +48,7 @@ This tells Github Copilot to use:
 - RAII for smart pointers
 
 
-## $$$$ 
+### $$$$ 
 
 While this AI multiple persona based approach can be useful for you to serve as an AI team there are cost implications for using custom chatmodes especially in
 Agent mode and not in Ask mode.
@@ -67,12 +69,13 @@ MCP (Model Context Protocol) are USB-C or generalisd interface for interfacing A
 ![Why MCP Servers are needed fo Copilot](why_mcp_and_copilot.png)
 
 ### MCP Instruction Files
+
 If you're using MCP instruction files, you can reference specific chat modes within those workflows—making it seamless to switch personas mid-task.
 
 [MCP Integrations with custom chatmodes in VS Code](https://www.codemag.com/Blog/AIPractitioner/GHCPCM)
 
 
-#### MCP Servers
+### MCP Servers
 
 What are Must-Have MCP Servers for Coding and Beyond
 
