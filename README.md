@@ -6,6 +6,8 @@ The primary objective of creating this repository is for experimenting by making
 
 This will be a framework for a web site that will provide Docker Containers for software development.
 
+### Read Me file for primary objective
+[README_Primary.md](README_Primary.md)
 
 ## Secondary Objective
 
@@ -15,9 +17,9 @@ The secondary objective of this repostry is to see how to do scale up software d
 It’s essentially a user-defined configuration file (chatmode.md) that tells Copilot how to think, act, and respond. For example, you can create modes tailored for:
 
 
-## Development Approach
+### AI Development Team Development Approach
 
-This project is developed by using AI development team inspired by this article below:
+This project is developed using AI Development team inspired by article below:
 
 ![AI development team workflow](ai_development_team_with_different_chatmodes.png)
 

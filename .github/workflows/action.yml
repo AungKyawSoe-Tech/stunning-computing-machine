@@ -1,0 +1,23 @@
+name: CI
+on:
+  push:
+    branches: [ main, create_containers ]
+jobs:
+  container-test-job:
+    runs-on: ubuntu-latest
+    container:
+      image: node:18
+      env:
+        NODE_ENV: development
+      ports:
+        - 80
+      volumes:
+        - my_docker_volume:/volume_mount
+      options: --cpus 1
+    steps:
+      - name: Check for dockerenv file
+        run: (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
+
+
+# Reference
+# https://docs.github.com/en/actions/tutorials/use-containerized-services/create-a-docker-container-action
