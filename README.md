@@ -98,9 +98,6 @@ Check out detailed setup instructions, practical examples, and use cases for all
 
 [Comprehensive Guides to MCP servers](https://medium.com/@tam.tamanna18/a-comprehensive-guide-to-the-best-mcp-servers-for-2025-5ee541b2b00f)
 
-### How to install MCP servers on WSL
-
-[WSL VS Code Tutorial](https://code.visualstudio.com/docs/remote/wsl-tutorial)
 
 ## Resources/Links
 

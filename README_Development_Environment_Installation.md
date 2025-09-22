@@ -4,6 +4,9 @@
 
 Integrating a Puppeteer Model Context Protocol (MCP) server with VS Code enables AI-powered coding tools within VS Code to interact with and automate web browsers. This allows functionalities like web page navigation, element interaction, screenshot capture, and JavaScript execution within a browser context, all controlled through an AI assistant or agent within VS Code.
 
+## How to install MCP servers on WSL
+
+[WSL VS Code Tutorial](https://code.visualstudio.com/docs/remote/wsl-tutorial)
 
 
 ## Setup in VS Code:
